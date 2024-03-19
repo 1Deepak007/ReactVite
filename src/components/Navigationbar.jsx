@@ -1,4 +1,5 @@
 import Container from 'react-bootstrap/Container';
+import DropdownDivider from 'react-bootstrap/esm/DropdownDivider';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -18,6 +19,10 @@ function Navigationbar() {
                 <NavDropdown.Item href="/firstComp">Vari Compo Btns Props</NavDropdown.Item>
                 <NavDropdown.Item href="/UseEfUseRfClbk">UseEffect UseRef Callback</NavDropdown.Item>
                 <NavDropdown.Item href="/ApiHooks">Custom_Hooks & API</NavDropdown.Item>
+
+                <li><hr class="dropdown-divider"/></li>
+                
+                <NavDropdown.Item href="/calculator">Calculator</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

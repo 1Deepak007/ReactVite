@@ -6,9 +6,14 @@ import FirstComp from './components/01PropsUseStatComp';
 import UseEfUseRfClbk from './components/02UseEfUseRfClbk';
 import ApiHook from './components/03ApiHook';
 
+//----------------------------------------------------------
+import Calculator from './components/selfProjectComp/01Calculator';
+
+
+
 function App() {
   let obj = { game: "Counter Strike", player: "PlayerOne" };
-  let my_ary = ["Deepak Gautam ", 7007408796, " Lucknow"];
+  let my_ary = ["Deepak Gautam ", 6473647367, " Lucknow"];
 
   const [newCount, setnewCount] = useState(0);
   const [newData, setnewData] = useState('Deepak');
@@ -21,6 +26,12 @@ function App() {
           <Route path="/firstcomp" element={<FirstComp name="Ishu Kirti Gautam" age='21' other={{ address: 'Nainital', mobile:'7465746574'}}  myObject={obj} myArray={my_ary}/>} />
           <Route path="/UseEfUseRfClbk" element={<UseEfUseRfClbk nwCount={newCount} nwData={newData} />} />
           <Route path="/ApiHooks" element={<ApiHook/>} />
+
+
+          {/*-------------------------------------------------------------------------- */}
+
+          <Route path="/calculator" element={<Calculator/>}/>
+
         </Routes>
       </BrowserRouter>
       {/* 02UseEfUseRfClbk */}
