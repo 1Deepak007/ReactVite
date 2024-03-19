@@ -46,10 +46,10 @@ export default function Calculator() {
         <input onChange={(e) => setsecondnum(e.target.value)} value={secondnum} type="number" placeholder="0" className='form-control' />
 
         <div className="row">
-          <div className="col m-3 ">
-            <label>Select Operator : </label>
+          <div className="col mt-3">
+            <label className='me-3'>Select Operator  </label>
 
-            <select onChange={(e) => setOperator(e.target.value)} value={operator} name="option">
+            <select onChange={(e) => setOperator(e.target.value)} value={operator} name="option" className='rounded'>
               <option value="+" className='btn btn-primary col m-2'>+</option>
               <option value="-" className='btn btn-primary col m-2'>-</option>
               <option value="*" className='btn btn-primary col m-2'>*</option>
