@@ -21,7 +21,7 @@ function Navigationbar() {
                 <NavDropdown.Item href="/ApiHooks">Custom_Hooks & API</NavDropdown.Item>
 
                 <li><hr class="dropdown-divider"/></li>
-                
+
                 <NavDropdown.Item href="/calculator">Calculator</NavDropdown.Item>
               </NavDropdown>
             </Nav>
