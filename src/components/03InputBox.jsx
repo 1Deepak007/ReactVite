@@ -1,6 +1,4 @@
 import { React, useId } from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 
 function InputBox({ label, amount,
   onAmountChange, onCurrencyChange,

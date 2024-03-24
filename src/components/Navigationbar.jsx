@@ -20,9 +20,10 @@ function Navigationbar() {
                 <NavDropdown.Item href="/UseEfUseRfClbk">UseEffect UseRef Callback</NavDropdown.Item>
                 <NavDropdown.Item href="/ApiHooks">Custom_Hooks & API</NavDropdown.Item>
 
-                <li><hr class="dropdown-divider"/></li>
+                <li><hr className="dropdown-divider"/></li>
 
                 <NavDropdown.Item href="/calculator">Calculator</NavDropdown.Item>
+                <NavDropdown.Item href="/bmicalculator">BMI Calculator</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

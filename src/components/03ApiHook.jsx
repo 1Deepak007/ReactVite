@@ -35,8 +35,8 @@ export default function ApiHook() {
                 <InputBox label="To" amount={convertedAmount} currencyOptions={options} onCurrencyChange={(currency)=>setTo(currency)} selectCurrency={from} amountDisabled />
               </div>
 
-              <div className='relative w-full h-0.5'>
-                <button type="submit" className="btn btn-primary mb-3"> Convert {from.toUpperCase()} To {to.toUpperCase()}</button>
+              <div className='relative w-full h-0.5 my-3 text-center'>
+                <button type="submit" className="btn btn-primary mb-3 me-4"> Convert {from.toUpperCase()} To {to.toUpperCase()}</button>   
                 <button type="button" className="btn btn-primary mb-3" onClick={swap}> Swap </button>
               </div>
             </form>

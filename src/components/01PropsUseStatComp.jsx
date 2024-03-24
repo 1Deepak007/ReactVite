@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import MyCard from './MyCard';
+import MyCard from './01MyCard';
 
 
 export default function FirstComp(props) {
